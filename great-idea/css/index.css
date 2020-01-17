@@ -201,11 +201,19 @@ h1 {
 	flex-direction: column;
 	align-items: flex-start;
 }
-
+#section-contents {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	
+}
 #section-contents div {
 	border: 1px solid black;
 	background-color: #F4F3F4;
 	padding: 15px;
+	padding-top: 25px;
+	flex-basis: 48%;
+	margin-bottom: 30px;
 }
 
 #section-contents div button{
@@ -217,4 +225,34 @@ h1 {
 	padding-right: 40px;
 	margin-top: 20px;
 	margin-bottom: 8.4px;
+}
+
+.bolder-hr {
+	height: 3.6px;
+	background-color: black;
+}
+
+.section-flex ul{
+	list-style-type:square;
+	margin-left: 20px;
+	padding-top: 20px;
+}
+
+.section-flex ul li{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#facts {
+	justify-content: space-between;
+}
+
+#facts div {
+	flex-basis: 48%;
+}
+
+#footer-services {
+	padding-bottom: 20px;
+	padding-top: 70px;
+	text-align: center;
 }
