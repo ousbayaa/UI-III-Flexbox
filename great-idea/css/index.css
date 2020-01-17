@@ -63,4 +63,133 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+header {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	padding-top: 30px;
+}
+
+section, header {
+	margin: 0% 20% 0% 20%;
+}
+
+nav {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;	
+}
+
+.logo {
+	/* width: 10%;
+	margin-right: 36%; */
+}
+
+nav a {
+	padding: 0px 25px 0px;
+	color: grey;
+	text-decoration: none;
+}
+
+nav a:first-child {
+	padding-left: 0;
+}
+
+nav img {
+	position: relative;
+}
+
+h1 {
+	font-size: 65px;
+	text-align: center;
+	padding-top: 40px;
+}
+
+.centered {
+	text-align: center;
+}
+
+#content-innovation {
+	
+	vertical-align: top;
+}
+#content-innovation button {
+	border: 1px solid grey;
+	padding-right: 20px; 
+	padding-left: 20px;
+	padding-bottom: 4.5px;
+	padding-top: 4.5px;
+	font-size: 15px;
+	color: grey;
+}
+
+#content-img {
+	
+	text-align: right;
+}
+
+#content-img img {
+	height: 85%;
+}
+
+#header-content {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 50px;
+}
+
+.linebreak {
+	margin-top: 35px;
+}
+
+.textsections {
+	display: flex;
+	margin-top: 40px;
+}
+
+#content-features {
+	width: 50%;
+}
+
+#content-about {
+	width: 49%;
+}
+
+#content-midpage {
+	margin-top: 36px;
+	margin-bottom: 35px;
+}
+
+#content-services {
+	width: 33%;
+}
+
+#content-product {
+	width: 33%;
+}
+
+#content-vision {
+	width: 32%
+}
+
+#contact-section {
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+
+#contact-section div {
+	width: 25%;
+}
+
+#contact-section div p {
+	padding-bottom: 25px;
+}
+
+#footer {
+	text-align: center;
+	padding-bottom: 100px;
+}
