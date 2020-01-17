@@ -64,6 +64,10 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+section, header {
+	margin: 0% 20% 0% 20%;
+}
+
 header {
 	display: flex;
 	justify-content: space-between;
@@ -71,8 +75,10 @@ header {
 	padding-top: 30px;
 }
 
-section, header {
-	margin: 0% 20% 0% 20%;
+.section-flex {
+	display: flex;
+	padding-top: 25px;
+	padding-bottom: 10px;
 }
 
 nav {
@@ -180,4 +186,35 @@ h1 {
 #footer {
 	text-align: center;
 	padding-bottom: 100px;
+}
+
+.services-header-img {
+	width: 100%;
+}
+
+#h1-services {
+	font-size: 35px;
+	padding-top: 0px;
+}
+
+#section-services {
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+#section-contents div {
+	border: 1px solid black;
+	background-color: #F4F3F4;
+	padding: 15px;
+}
+
+#section-contents div button{
+	border: 1px solid black;
+	border-radius: 5.5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin-top: 20px;
+	margin-bottom: 8.4px;
 }
